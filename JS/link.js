@@ -5,13 +5,13 @@ function link(url) {
 
 document.querySelectorAll("header").forEach(tag => {
     tag.onclick=function () {
-        link("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/index.html");  // ← 飛ばしたいページ
+        link("https://hisazomeak26008.github.io/yokohama/index.html");  // ← 飛ばしたいページ
     };
 });
 
 document.querySelectorAll("nav > li:first-of-type").forEach(tag => {
     tag.onclick=function () {
-        link("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/index.html");  // ← 飛ばしたいページ
+        link("https://hisazomeak26008.github.io/yokohama/index.html");  // ← 飛ばしたいページ
 
     };
 });
