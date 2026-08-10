@@ -1,0 +1,228 @@
+html {
+	height:100vh;
+	font-family:"Zen Old Mincho",sans-serif;
+	font-size:1.5em;
+	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/back.png");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+@font-face {
+  font-family:"Zen Old Mincho";
+  src:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/font/ZenOldMincho-Medium.ttf") format("TrueType");
+}
+@font-face {
+  font-family:"佑字 肅";
+  src:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/font/YujiSyuku-Regular.ttf") format("TrueType");
+}
+* {
+	margin:0;
+	padding:0;
+	text-align:start;
+	cursor:default;
+}
+body {
+	width:98%;
+	min-height:100%;
+	margin:0 auto;
+}
+[onclick] {
+	cursor:pointer;
+}
+header{
+	text-align:center;
+	font-size:5em;
+}
+select, option {
+	font-family:"Zen Old Mincho";
+	font-size:0.8em;
+	border:2px solid #000000;
+	background-color:rgba(0,0,0,0.0);
+}
+select:first-of-type {
+	margin-left:1em;
+}
+main {
+	width:80%;
+	min-height:100%;
+	margin:0 auto;
+	padding:15px 10px;
+	padding-bottom:auto;
+}
+main > * {
+	width:98%;
+	margin:0 auto;
+}
+html:not(#index) main {
+	background-color:rgba(255,255,255,0.8);
+}
+h1 {
+	font-size:1.2em;
+}
+span[onclick] {
+	font-size:0.8em;
+	margin-left:1em;
+	border:2px solid;
+}
+span[onclick]:after {
+	content:"（クリック）";
+	font-size:0.5em;
+}
+#index main p {
+	text-align:center;
+}
+#index main p:first-of-type {
+	font-size:2em;
+}
+#index main p:first-of-type:before, #index main p:first-of-type:after {
+	content:"—";
+}
+#index main p:nth-of-type(2) {
+	font-size:1.5em;
+}
+nav > li {
+	display:inline-block;
+	margin:0 5px;
+}
+nav > li:nth-of-type(n+2):before {
+	content:"＞";
+	margin-right:0.5em;
+	font-weight:normal;
+}
+nav > li:last-of-type {
+	font-weight:bold;
+}
+menu {
+	display:table;
+	margin:0 auto;
+}
+menu > li {
+	display:table-cell;
+	list-style-type:none;
+	text-align:center;
+  text-shadow:1px 1px 0 #FFF, 
+		-1px -1px 0 #FFF,
+		-1px 1px 0 #FFF, 
+		1px -1px 0 #FFF,
+		0px 1px 0 #FFF,  
+		0 -1px 0 #FFF,
+		-1px 0 0 #FFF, 
+		1px 0 0 #FFF;
+	vertical-align:middle;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#index menu > li {
+	width:300px;
+	height:300px;
+	font-size:1.5em;
+}
+html:not(#index) menu > li {
+	width:200px;
+	height:200px;
+	font-size:1.2em;
+}
+menu > li:first-of-type {
+	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/menu02.png");
+}
+menu > li:nth-of-type(2) {
+	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/menu01.png");
+}
+menu > li:nth-of-type(3) {
+	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/menu03.png");
+}
+menu > li:nth-of-type(4) {
+	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/menu04.png");
+}
+html:not(#data) main > dl {
+	display:block;
+}
+html:not(#data) main > dl:nth-of-type(n+2) {
+	margin-top:1em;
+}
+html:not(#data) main > dl > dl {
+	display:table;
+	width:98%;
+	margin:0 auto;
+}
+html:not(#data) main > dl > dl:nth-of-type(n+2) {
+	margin-top:1em;
+}
+html:not(#data) main > dl > dl > * {
+	display:block;
+}
+html:not(#data) main > dl > dl > dt {
+	border-bottom:3px solid #000000;
+	margin-bottom:0.5em;
+}
+html:not(#data) main > dl > dl > dd {
+	width:98%;
+	margin:0 auto;
+}
+img {
+	height:200px;
+}
+html:not(#data, #history) main > dl > dl:nth-of-type(odd) img {
+	float:left;
+	margin-right:1em;
+}
+html:not(#data, #history) main > dl > dl:nth-of-type(even) img {
+	float:right;
+	margin-left:1em;
+}
+#data main > dl:nth-of-type(n+2) {
+	margin-top:1em;
+}
+#data main > dl > dl {
+	display:table;
+}
+#data main > dl > dl > * {
+	display:table-cell;
+	line-height:110%;
+}
+#data dt:after {
+	content:"：";
+}
+#song span[onclick] {
+	font-size:80%;
+}
+#song pre {
+	writing-mode:vertical-rl;
+	white-space:pre-line;
+	margin:0 auto;
+	margin-top:10px;
+	font-family:"佑字 肅";
+}
+#song pre > span:nth-of-type(4n+2) {
+	margin-top:1em;
+}
+#song pre > span:nth-of-type(4n+3) {
+	margin-top:2em;
+}
+#song pre > span:nth-of-type(4n) {
+	margin-top:3em;
+}
+#history main > dl > dl > dd > img {
+	float:right;
+	margin-left:1em;
+}
+#topbutton {
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	padding:10px 16px;
+	background:#3498db;
+	color:#fff;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+	font-size:14px;
+	z-index:9999;
+	display:none;
+	font-family:"Zen Old Mincho";
+}
+footer {
+	text-align:center;
+	padding:20px 0;
+}

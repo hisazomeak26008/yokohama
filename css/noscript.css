@@ -1,0 +1,16 @@
+html {
+	height:100vh;
+}
+body {
+	height:100%;
+}
+body > *:not(noscript) {
+	display:none;
+}
+noscript {
+	display:block;
+	height:100%;
+	background-image:url("file:///C:/Users/GuestUser/OneDrive/Documents/yokohama/yokohama/img/noscript.png");
+	background-repeat:no-repeat;
+	background-position:center;
+}

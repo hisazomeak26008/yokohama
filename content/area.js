@@ -1,0 +1,107 @@
+export const PAGE_HTML = `
+	<dl>
+		<h1>みなとみらいエリア（西区・中区）</h1>
+		<dl>
+			<dt>横浜駅</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/1-1yokohama_station.jpg" alt="横浜駅">
+				JR・私鉄・地下鉄が集中する神奈川県最大の交通結節点であり、首都圏屈指の巨大ターミナルとして機能する。<br>
+				利用者数は全国で4番目、路線数は5番目に多い。<br>
+				周辺には大規模商業施設が連なり、買物・飲食・娯楽の諸要素が高度に集積する。<br>
+				みなとみらいや中華街など主要観光地への移動も容易で、横浜観光の玄関口として多くの人々を迎え入れる都市中枢である。</dd>
+		</dl>
+		<dl>
+			<dt>横浜ランドマークタワー</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/1-2yokohama_landmark_tower.jpg" alt="横浜ランドマークタワー">
+				1993年（平成5年）に竣工した超高層複合施設であり、地上70階・高さ296メートルの横浜の象徴的建築物である。<br>
+				竣工から約20年間ビルとしての高さ日本一を維持し、現在も国内で3番目の高さを誇る。<br>
+				オフィス・ホテル・商業施設が一体となり、都市機能を高度に集積する。<br>
+				展望フロア「スカイガーデン」からは港湾と市街を一望でき、その眺望は横浜随一とされる。<br>
+				みなとみらい地区の中心に位置し、現代都市横浜を代表するランドマークとして広く認知されている。</dd>
+		</dl>
+		<dl>
+			<dt>中華街</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/1-3chugoku_street.jpg" alt="中華街">
+				約500メートル四方の区画に六百余の飲食店・商店が密集する、日本最大規模の中華街である。<br>
+				華麗な牌楼と色彩豊かな街並みが特徴で、本格中華の食べ歩き、寺院参拝、季節行事など多様な楽しみを備える。<br>
+				異国情緒に満ちた活気ある街は、横浜を代表する観光地として国内外の来訪者を惹きつけてやまない。</dd>
+		</dl>
+		<dl>
+			<dt>横浜スタジアム</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/1-4yokohama_stadium.jpg" alt="横浜スタジアム">
+				1978年（昭和53年）に開場した日本初の円形多目的野球場であり、横浜DeNAベイスターズの本拠地として知られる。<br>
+				横浜公園内に位置し、観客席とフィールドの距離が近く、臨場感に富む観戦環境を有する。<br>
+				野球のみならず各種催事にも対応し、試合後には中華街やみなとみらいへの散策も可能で、都市とスポーツが交差する横浜の中心的施設となっている。</dd>
+		</dl>
+		<dl>
+			<dt>赤レンガ倉庫</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/1-5akarenga.jpg" alt="赤レンガ倉庫">
+				明治末期から大正初期にかけて築造された保税倉庫を再生した、横浜港を象徴する歴史的建造物である。<br>
+				煉瓦造に鉄骨補強を組み合わせた当時先端の技術を備え、長らく横浜税関の施設として機能した。<br>
+				2002年（平成14年）の改修後は、文化施設と商業施設として新たな役割を担い、展示・公演・催事が通年で行われる。<br>
+				重厚な外観は港景と調和し、夜間にはライトアップが施され、みなとみらいの夜景とともに幻想的な趣を呈する。</dd>
+		</dl>
+		<dl>
+			<dt>山下公園</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/1-6yamashita_park.jpg" alt="山下公園">
+				1930年（昭和5年）に開園した海浜公園であり、横浜港を望む景勝地として知られる。<br>
+				関東大震災の瓦礫を埋立材として造成された歴史を持ち、広い園地には記念碑や花壇が点在する。<br>
+				港を行き交う船舶と海風が調和し、散策・観光の名所として長く親しまれている。</dd>
+		</dl>
+	</dl>
+	<dl>
+		<h1>港北エリア（港北区・都筑区）</h1>
+		<dl>
+			<dt>新横浜駅</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/2-1shin-yokohama_station.jpg" alt="新横浜駅">
+				1964年（昭和39年）に開業した交通拠点であり、東海道新幹線・在来線・地下鉄が交差する広域アクセスの要衝である。<br>
+				周辺には商業施設やホテルが集積し、都市機能が高度に発展する。<br>
+				新幹線利用により国内主要都市との往来が容易で、横浜北部の中心として重要な役割を担う。<br>
+				2019年（令和元年）の相模鉄道、2023年（令和5年）の東急電鉄の新路線の接続に伴い、駅が拡張された。</dd>
+		</dl>
+		<dl>
+			<dt>横浜アリーナ</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/2-2yokohama_arena.jpg" alt="横浜アリーナ">
+				1989年（平成元年）に開館した多目的大型ホールであり、国内有数の収容規模を誇る。<br>
+				コンサート・スポーツ・式典など多様な催事に対応し、可動席や音響設備を備えた柔軟な構造を有する。<br>
+				新横浜駅に近接し、全国から来訪者を集める横浜の代表的イベント拠点である。</dd>
+		</dl>
+		<dl>
+			<dt>日産スタジアム</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/2-3nissan_stadium.jpg" alt="日産スタジアム">
+				1998年（平成10年）に開場した日本最大級の陸上競技・球技兼用スタジアムであり、国際大会にも用いられる。<br>
+				約7万人規模の観客席を備え、FIFAワールドカップや各種スポーツイベントの舞台となってきた。<br>
+				広大な施設は新横浜の都市景観と調和し、国内外の観客を惹きつける存在である。</dd>
+		</dl>
+		<dl>
+			<dt>横浜国際プール</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/2-4yokohama_international_pool.jpg" alt="横浜国際プール">
+				1998年（平成10年）に開館した国際規格の水泳競技施設であり、50メートルプールを中心に多目的空間を備える。<br>
+				可動床・可動壁を採用し、競技・レッスン・イベントなど多用途に対応する。<br>
+				港北ニュータウンの一角に位置し、地域のスポーツ拠点として機能するとともに全国規模の大会も開催される。</dd>
+		</dl>
+	</dl>
+	<dl>
+		<h1>その他</h1>
+		<dl>
+			<dt>こどもの国</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/3-1kodomonokuni.jpg" alt="こどもの国">
+				1965年（昭和40年）に開園した児童厚生施設であり、広大な園地に牧場・遊具・自然散策路を備える。<br>
+				皇太子殿下（現・今上上皇）御成婚と親王殿下（現・今上天皇）の御生誕を記念して造成された経緯を持ち、子どもを中心とした健全育成の場として長く親しまれてきた。<br>
+				豊かな自然環境と多様な体験施設が調和し、家族連れの行楽地として横浜北部に重要な位置を占める。</dd>
+		</dl>
+		<dl>
+			<dt>八景島シーパラダイス</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/3-2hakkeijima_seaparadise.jpg" alt="八景島シーパラダイス">
+				1993年（平成5年）に開業した海洋レジャー施設であり、水族館・遊園地・ショッピングエリアが一体となる複合型の島施設である。<br>
+				海洋生物の展示規模は国内屈指で、イルカショーや体験型プログラムが来訪者を惹きつける。<br>
+				島全体が海に囲まれ、景観と娯楽が融合した横浜湾岸の代表的観光地となっている。</dd>
+		</dl>
+		<dl>
+			<dt>よこはま動物園ズーラシア</dt>
+			<dd><img src="/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/area/3-3yokohama_zooland.jpg" alt="よこはま動物園ズーラシア">
+				1999年（平成11年）に開園した動物園であり、「生命の共生」を理念として世界の気候帯・地域を再現した展示を特徴とする。<br>
+				広大な園内には希少動物が多数飼育され、自然環境に近い生態展示が高い評価を受ける。<br>
+				緑豊かな環境と教育的価値を兼ね備え、横浜市郊外の主要レクリエーション拠点として位置づけられている。</dd>
+		</dl>
+	</dl>
+`;
