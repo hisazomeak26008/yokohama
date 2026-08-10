@@ -68,9 +68,6 @@ span[onclick]:after {
 	content:"（クリック）";
 	font-size:0.3em;
 }
-#index header {
-	margin:80px 0;
-}
 #index main p {
 	text-align:center;
 }
