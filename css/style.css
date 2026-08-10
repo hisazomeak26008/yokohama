@@ -2,18 +2,18 @@ html {
 	height:100vh;
 	font-family:"Zen Old Mincho",sans-serif;
 	font-size:1.5em;
-	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/back.png");
+	background-image:url("https://hisazomeak26008.github.io/yokohama/img/back.png");
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-position:center;
 }
 @font-face {
   font-family:"Zen Old Mincho";
-  src:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/font/ZenOldMincho-Medium.ttf") format("TrueType");
+  src:url("https://hisazomeak26008.github.io/yokohama/font/ZenOldMincho-Medium.ttf") format("TrueType");
 }
 @font-face {
   font-family:"佑字 肅";
-  src:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/font/YujiSyuku-Regular.ttf") format("TrueType");
+  src:url("https://hisazomeak26008.github.io/yokohama/font/YujiSyuku-Regular.ttf") format("TrueType");
 }
 * {
 	margin:0;
@@ -124,16 +124,16 @@ html:not(#index) menu > li {
 	font-size:1.2em;
 }
 menu > li:first-of-type {
-	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/menu02.png");
+	background-image:url("https://hisazomeak26008.github.io/yokohama/img/menu02.png");
 }
 menu > li:nth-of-type(2) {
-	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/menu01.png");
+	background-image:url("https://hisazomeak26008.github.io/yokohama/img/menu01.png");
 }
 menu > li:nth-of-type(3) {
-	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/menu03.png");
+	background-image:url("https://hisazomeak26008.github.io/yokohama/img/menu03.png");
 }
 menu > li:nth-of-type(4) {
-	background-image:url("/Users/hitoshihisazome/Documents/Kaien/個人ワーク/ホームページ/yokohama/yokohama/img/menu04.png");
+	background-image:url("https://hisazomeak26008.github.io/yokohama/img/menu04.png");
 }
 html:not(#data) main > dl {
 	display:block;
