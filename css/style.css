@@ -60,13 +60,16 @@ h1 {
 	font-size:1.2em;
 }
 span[onclick] {
-	font-size:0.8em;
+	font-size:0.5em;
 	margin-left:1em;
 	border:2px solid;
 }
 span[onclick]:after {
 	content:"（クリック）";
-	font-size:0.5em;
+	font-size:0.3em;
+}
+#index header {
+	padding:20px 0;
 }
 #index main p {
 	text-align:center;
@@ -183,9 +186,6 @@ html:not(#data, #history) main > dl > dl:nth-of-type(even) img {
 }
 #data dt:after {
 	content:"：";
-}
-#song span[onclick] {
-	font-size:80%;
 }
 #song pre {
 	writing-mode:vertical-rl;
